@@ -1,0 +1,33 @@
+<div class="top-part coolText">All Time stats</div>
+<div class="middle-part">
+  <div class="space">
+    <i class="material-icons">calendar_month</i>
+    <p>Workouts</p>
+    <span>{{dataJSON?.all_ride_totals?.count}}</span>
+  </div>
+
+
+  <div class="space">
+    <i class="material-icons ">location_on</i>
+    <p siz>Distance</p>
+    <span>{{dataJSON?.all_ride_totals?.distance}}</span>
+  </div>
+
+  <div class="space">
+    <i class="material-icons">access_time</i>
+    <p>Duration</p>
+    <span>{{dataJSON?.all_ride_totals?.elapsed_time}}</span>
+  </div>
+
+  <div class="space">
+    <i class="material-icons">local_fire_department</i>
+    <p>Calories</p>
+    <span>{{dataJSON?.all_ride_totals?.elevation_gain}}</span>
+  </div>
+
+
+  <!--    <button mat-icon-button>-->
+  <!--      <mat-icon>more_vert</mat-icon>-->
+  <!--    </button>-->
+</div>
+

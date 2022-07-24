@@ -1,0 +1,55 @@
+$real-white: #ffffff;
+$fake-white: #fdfdfd;
+$shadow-base-color: rgb(241, 239, 239);
+
+
+$text-color: #636364;
+
+.mat-toolbar {
+  background-color: $real-white;
+  color: $text-color;
+
+
+  -webkit-box-shadow: 0px 10px 13px 0px $shadow-base-color;
+  -moz-box-shadow: 0px 10px 13px 0px $shadow-base-color;
+  box-shadow: 0px 10px 13px 0px $shadow-base-color;
+
+}
+
+.space {
+  width: 5px;
+  //height: auto;
+  display: inline-block;
+}
+
+.main-marginated-container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.default {
+  color: gray;
+}
+
+.header-spacer {
+  flex: 1 1 auto;
+}
+
+#app_name {
+  color: black;
+  font-weight: bolder;
+}
+
+.mat-toolbar{
+  padding-left: 5%;
+  padding-right: 5%;
+}

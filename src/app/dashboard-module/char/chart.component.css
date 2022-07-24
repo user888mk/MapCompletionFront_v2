@@ -1,0 +1,31 @@
+.elapsed_time_position {
+  width: 12%;
+  margin-right: 2%;
+  float: left;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 19px;
+
+  /*margin-bottom: 40%;*/
+
+}
+
+/*.elapsed_time_position inframe {*/
+/*  width: 100%;*/
+/*}*/
+
+.elapsed_time_position_rest {
+  width: 42%;
+  float: left;
+}
+
+.clearfix {
+  /*clear: both*/
+  overflow: auto;
+}
+
+.chart{
+  width: 70%;
+  margin-right: 2%;
+  float: left;
+}

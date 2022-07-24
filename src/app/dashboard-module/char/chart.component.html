@@ -1,0 +1,31 @@
+<div class="chart">
+  <div echarts [options]="option" *ngIf="true"></div>
+</div>
+
+<div class="elapsed_time_position">
+
+  <div>
+    <!--   <mat-icon> directions_bike</mat-icon>-->
+
+    <p>Cycling: </p>
+  </div>
+</div>
+<div class="elapsed_time_rest">
+  <p>
+    {{chartData?.all_ride_totals?.elapsed_time}}
+  </p>
+  <p>{{chartData?.all_ride_totals?.count}} workouts: </p>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="elapsed_time_position">
+  <p>Running: </p>
+</div>
+<div class="elapsed_time_rest">
+  <p>
+    {{chartData?.all_run_totals?.elapsed_time}}
+  </p>
+  <p>{{chartData?.all_run_totals?.count}} workouts: </p>
+</div>
+<div class="clearfix"></div>
